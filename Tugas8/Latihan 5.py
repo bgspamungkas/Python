@@ -7,8 +7,8 @@ nilai = [{'nim' : 'A01', 'nama' : 'Agustina', 'mid' : 50, 'uas' : 80},
 print('=' * 55)
 print('NIM'.ljust(12), end='')
 print('NAMA'.ljust(12), end='')
-print('N. MID'.rjust(8), end='')
-print('N. UAS'.rjust(12))
+print('Nilai. MID'.rjust(8), end='')
+print('Nilai. UAS'.rjust(12))
 print('-' * 55)
 
 for b in range(len(nilai)):
