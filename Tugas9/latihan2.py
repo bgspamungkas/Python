@@ -4,16 +4,17 @@ data = ''
 
 lagi = 'y'
 while lagi == 'y':
-    file = open(path + '/latihan2.txt','a')
+    myfile = open(path + '/latihan2.txt','a')
     nim = input('Masukkan NIM          : ')
     nama = input('Masukkan Nama Mahassiswa     : ')
     alamat = input('Masukkan Alamat       : ')
     dataAwal = [nim, nama, alamat]
     data = '|'.join(dataAwal) + '\n'
-    file.write(data)
+    myfile.write(data)
     lagi = input('Masukan input (y/n): ')
-file.close()
-file = open(path + '/latihan2.txt','a')
-hasil = file.read( )
+    
+myfile.close()
+myfile = open(path + '/latihan2.txt','r')
+hasil = myfile.readlines()
 print(hasil)
-file.close()
+myfile.close()
