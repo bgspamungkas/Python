@@ -1,4 +1,0 @@
-M02|Bagus|Pembelajaran C++|2021-01-12|2021-01-19
-M03|Jasmine|Pengoptimalan penggunaan windows 10|2021-01-12|2021-01-19
-M05|Yudana|Cara penggunaan Java|2021-01-12|2021-01-19
-
